@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const exphbs = require("express-handlebars");
 const router = require("../controllers/burgers_controller.js");
 const path = require("path");
-var methodOverride = require('method-override');
+
 
 // Express setup
 const app = express();
