@@ -1,0 +1,24 @@
+{
+  "name": "burger-homework",
+  "version": "1.0.0",
+  "description": "Coding Boot camp Homework assignment following MVC design using NodeJS, MySQL, Express, Handlebars, and an ORM.",
+  "main": "connection.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "method-override": "^3.0.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
